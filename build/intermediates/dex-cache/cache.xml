@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/ssd/.android/build-cache/d7cff5451fb4de6eef302c234f739105fbff223c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2cc8a87f25be7b9c223257a58c061018fdbea656">
+        <dex dex="/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/pre-dexed/debug/classes_d405b7bfa0660b1ee2330a20db995d8a348c0f59.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="197dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.78"
+            android:background="@android:color/black"
+            android:text="For guide on how to block device on router.\nPress the button on side."
+            android:textColor="@android:color/background_light" />
+
+        <Button
+            android:id="@+id/clickButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@+id/btn_back"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_toRightOf="@+id/btn_back"
+            android:layout_weight="0.19"
+            android:background="@android:color/black"
+            android:ellipsize="none"
+            android:fontFamily="sans-serif"
+            android:freezesText="false"
+            android:hapticFeedbackEnabled="true"
+            android:keepScreenOn="false"
+            android:scrollHorizontally="false"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="\?"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <WebView
+        android:id="@+id/webView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
+

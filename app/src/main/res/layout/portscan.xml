@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Copyright (C) 2009-2010 Aubort Jean-Baptiste (Rorist)
+ Licensed under GNU's GPL 2, see README
+-->
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="?android:attr/listPreferredItemHeight"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:layout_marginTop="10dip"
+            android:paddingBottom="5dip">
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="42dip"
+                android:layout_height="42dip"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="15dip"
+                android:src="@drawable/computer" />
+
+            <TextView
+                android:id="@+id/host"
+                style="@style/ListTextTitle"
+                android:layout_width="fill_parent"
+
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/logo"
+                android:ellipsize="start"
+                android:gravity="center_vertical"
+                android:lines="1"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:maxLines="2"
+                android:text="0.0.0.0"
+                android:textColor="@android:color/white"
+                android:typeface="normal" />
+
+            <TextView
+                android:id="@+id/mac"
+                style="@style/ListTextTitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/host"
+                android:layout_toRightOf="@+id/logo"
+                android:text="00:00:00:00:00:00"
+                android:textAllCaps="true"
+                android:textColor="@android:color/white"
+                android:typeface="normal" />
+
+            <TextView
+                android:id="@+id/textView2"
+                style="@style/ListTextTitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/mac"
+                android:layout_toRightOf="@+id/logo"
+                android:text="00:00:00:00:00:00"
+                android:textAllCaps="true"
+                android:textColor="@android:color/white"
+                android:typeface="normal" />
+
+            <TextView
+                android:id="@+id/list"
+                style="@style/ListTextTitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignWithParentIfMissing="true"
+                android:layout_toRightOf="@+id/logo"
+                android:ellipsize="end"
+                android:lines="1"
+                android:text="NIC Vendor"
+                android:textColor="@android:color/white"
+                android:typeface="normal" />/>
+        </RelativeLayout>
+
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="5dip"
+            android:gravity="bottom"/>
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:paddingTop="5dip">
+
+            <ListView
+                android:id="@+id/list_open"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <ListView
+                android:id="@+id/list_closed"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+        </FrameLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_scan"
+                android:layout_width="211dp"
+                android:layout_height="match_parent"
+                android:layout_alignBottom="@+id/btn_back"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_toRightOf="@+id/btn_back"
+                android:background="@drawable/buttonshape"
+                android:fontFamily="sans-serif-smallcaps"
+                android:freezesText="false"
+                android:hapticFeedbackEnabled="true"
+                android:keepScreenOn="false"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:text="Scan Devices"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btn_back"
+                style="@style/ButtonTop"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0"
+                android:background="@drawable/buttonshape"
+                android:drawableLeft="@drawable/back"
+                android:drawablePadding="15dip"
+                android:fontFamily="sans-serif-smallcaps"
+                android:freezesText="false"
+                android:hapticFeedbackEnabled="true"
+                android:keepScreenOn="false"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:text="@string/btn_back"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+        </RelativeLayout>
+    </LinearLayout>
+</TabHost>

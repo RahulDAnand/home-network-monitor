@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="me.rahulanand.network"
+    android:installLocation="preferExternal"
+    android:versionCode="44"
+    android:versionName="1.0.5" > <!-- FIXME: Isn't the app compatible with API Level 1 ? -->
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="9" />
+
+    <supports-screens />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name="me.rahulanand.network.ActivityMain"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="me.rahulanand.network.ActivityDiscovery"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="me.rahulanand.network.ActivityPortscan"
+            android:configChanges="keyboard|keyboardHidden"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name=".SCAN_HOST" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="me.rahulanand.network.Utils.Prefs"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.PREFERENCE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="me.rahulanand.network.Utils.Help"
+            android:label="@string/app_name" />
+        <activity
+            android:name="me.rahulanand.network.BlockDevice"
+            android:label="@string/app_name" />
+        <activity android:name="me.rahulanand.network.NetworkHelp" />
+        <activity android:name="me.rahulanand.network.ipTools" />
+    </application>
+
+</manifest>

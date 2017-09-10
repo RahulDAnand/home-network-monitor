@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/Users/ssd/.android/build-cache/33e4b57cbda87d7b1439114bc4e0fe0cb98f5a1d/output/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/Users/ssd/.android/build-cache/33e4b57cbda87d7b1439114bc4e0fe0cb98f5a1d/output/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/ssd/.android/build-cache/33e4b57cbda87d7b1439114bc4e0fe0cb98f5a1d/output/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/Users/ssd/.android/build-cache/33e4b57cbda87d7b1439114bc4e0fe0cb98f5a1d/output/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/anim/snackbar_in.xml",
+        "source": "/Users/ssd/.android/build-cache/539e33af76bd929f536687397c684d4746f9fb9b/output/res/anim/snackbar_in.xml"
+    },
+    {
+        "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/ssd/.android/build-cache/33e4b57cbda87d7b1439114bc4e0fe0cb98f5a1d/output/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/Users/ssd/.android/build-cache/33e4b57cbda87d7b1439114bc4e0fe0cb98f5a1d/output/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/ssd/.android/build-cache/33e4b57cbda87d7b1439114bc4e0fe0cb98f5a1d/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/ssd/.android/build-cache/33e4b57cbda87d7b1439114bc4e0fe0cb98f5a1d/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/anim/fab_in.xml",
+        "source": "/Users/ssd/.android/build-cache/539e33af76bd929f536687397c684d4746f9fb9b/output/res/anim/fab_in.xml"
+    },
+    {
+        "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/anim/fab_out.xml",
+        "source": "/Users/ssd/.android/build-cache/539e33af76bd929f536687397c684d4746f9fb9b/output/res/anim/fab_out.xml"
+    },
+    {
+        "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/anim/snackbar_out.xml",
+        "source": "/Users/ssd/.android/build-cache/539e33af76bd929f536687397c684d4746f9fb9b/output/res/anim/snackbar_out.xml"
+    },
+    {
+        "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/ssd/.android/build-cache/33e4b57cbda87d7b1439114bc4e0fe0cb98f5a1d/output/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/Users/ssd/.android/build-cache/33e4b57cbda87d7b1439114bc4e0fe0cb98f5a1d/output/res/anim/abc_popup_enter.xml"
+    }
+]

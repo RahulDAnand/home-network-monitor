@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.96"
+        android:background="@android:color/black">
+
+        <ListView
+            android:id="@+id/output"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@android:color/black"
+            android:cacheColorHint="@android:color/black" />
+
+        <pl.droidsonroids.gif.GifTextView
+            android:id="@+id/list_empty"
+            android:layout_width="400dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center_vertical|center_horizontal|center"
+            android:background="@drawable/circles"
+            android:freezesText="false"
+            android:scaleType="fitXY" />
+
+
+        <!--
+        <SlidingDrawer
+            android:id="@+id/drawer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:handle="@+id/handle"
+            android:content="@+id/content">
+            <ImageView
+                android:id="@id/handle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/drawer_handle" />
+            <LinearLayout
+                android:id="@id/content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/drawer_bg">
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="10dip"
+                    android:typeface="monospace"
+                    android:text="Network Block" />
+                <Button
+                    android:id="@+id/btn_cidr_minus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="-" />
+                <EditText
+                    android:id="@+id/cidr_value"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:lines="1"
+                    style="?android:attr/textAppearanceLargeInverse"
+                    android:textColor="@android:color/primary_text_light"
+                    android:textSize="30sp" />
+                <Button
+                    android:id="@+id/btn_cidr_plus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="+" />
+            </LinearLayout>
+         </SlidingDrawer>
+          -->
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/black"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/btn_discover"
+            android:layout_width="229dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/buttonshape"
+            android:fontFamily="sans-serif-smallcaps"
+            android:freezesText="false"
+            android:hapticFeedbackEnabled="true"
+            android:keepScreenOn="false"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="Scan Devices"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp">
+
+        </Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/info_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/drawer_bg"
+        android:orientation="vertical"
+        android:paddingBottom="5dip"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/info_ip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="10dip"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/info_in"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/wifi_unknown"
+            android:textSize="10dip"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/info_mo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="10dip"
+            android:typeface="monospace" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="me.rahulanand.network.test">
+
+    <uses-sdk android:minSdkVersion="9" android:targetSdkVersion="9" />
+
+    <application>
+        <uses-library android:name="android.test.runner" />
+    </application>
+
+    <instrumentation android:name="android.test.InstrumentationTestRunner"
+                     android:targetPackage="me.rahulanand.network"
+                     android:handleProfiling="false"
+                     android:functionalTest="false"
+                     android:label="Tests for me.rahulanand.network"/>
+</manifest>

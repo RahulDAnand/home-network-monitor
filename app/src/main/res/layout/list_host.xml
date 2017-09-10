@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:orientation="horizontal"
+    android:padding="2dip">
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="48dip"
+        android:layout_height="48dip"
+        android:layout_gravity="center_vertical"
+        android:paddingLeft="5dip"
+        android:paddingRight="10dip"
+        android:src="@drawable/computer" />
+
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/list"
+            style="@style/ListTextTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="start"
+            android:maxLines="2"
+            android:text="List"
+            android:textColor="@android:color/white"
+            android:typeface="normal" />
+
+        <TextView
+            android:id="@+id/ipkeyliye"
+            style="@style/ListTextTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:lines="1"
+            android:text="ip"
+            android:textColor="@android:color/white"
+            android:typeface="normal" />
+
+        <TextView
+            android:id="@+id/mac"
+            style="@style/ListTextTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="mac "
+            android:textAllCaps="true"
+            android:textColor="@android:color/white"
+            android:typeface="normal" />
+
+        <TextView
+            android:id="@+id/Vendor"
+            style="@style/ListTextTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:lines="1"
+            android:text=""
+            android:textColor="@android:color/white"
+            android:typeface="normal" />
+
+    </LinearLayout>
+
+</LinearLayout>
