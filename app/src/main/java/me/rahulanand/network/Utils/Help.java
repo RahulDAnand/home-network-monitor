@@ -18,7 +18,7 @@ public class Help extends Activity {
 
         WebView myWebView = (WebView) findViewById(R.id.webView1);
         myWebView.setWebViewClient(new WebViewClient());
-        myWebView.loadUrl("https://networkhelp.rahulanand.me");
+        myWebView.loadUrl("file:///android_asset/about.html");
     }
 
     @Override

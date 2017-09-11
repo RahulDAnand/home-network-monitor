@@ -66,8 +66,7 @@ final public class ActivityDiscovery extends ActivityNet implements OnItemClickL
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        requestWindowFeature(Window.FEATURE_PROGRESS);
-        requestWindowFeature(Window.FEATURE_INDETERMINATE_PROGRESS);
+        this.requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.discovery);
         mInflater = LayoutInflater.from(ctxt);
 

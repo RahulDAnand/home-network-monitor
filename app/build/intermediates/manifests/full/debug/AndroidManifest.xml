@@ -58,7 +58,7 @@
         <activity
             android:name="me.rahulanand.network.BlockDevice"
             android:label="@string/app_name" />
-        <activity android:name="me.rahulanand.network.NetworkHelp" />
+        <activity android:name="me.rahulanand.network.BlockHelp" />
         <activity android:name="me.rahulanand.network.ipTools" />
     </application>
 

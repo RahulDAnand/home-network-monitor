@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
+import android.view.Window;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Button;
@@ -20,6 +21,7 @@ public class BlockDevice extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        this.requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.block_device);
         button2 = (Button) findViewById(R.id.clickButton);
 
@@ -35,7 +37,7 @@ public class BlockDevice extends Activity {
 
                     // Start NewActivity.class
                     Intent myIntent = new Intent(BlockDevice.this,
-                            NetworkHelp.class);
+                            BlockHelp.class);
                     startActivity(myIntent);
                 }
             });

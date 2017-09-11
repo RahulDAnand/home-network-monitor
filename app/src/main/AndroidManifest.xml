@@ -55,7 +55,7 @@
             android:label="@string/app_name" />
 
 
-        <activity android:name=".NetworkHelp" />
+        <activity android:name=".BlockHelp" />
         <activity android:name=".ipTools" />
 
 

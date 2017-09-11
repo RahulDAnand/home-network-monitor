@@ -127,7 +127,7 @@ public class Prefs extends PreferenceActivity implements OnSharedPreferenceChang
     private String before_port_end;
 
     public void onCreate(Bundle savedInstanceState) {
-        requestWindowFeature(Window.FEATURE_INDETERMINATE_PROGRESS);
+        this.requestWindowFeature(Window.FEATURE_NO_TITLE);
         super.onCreate(savedInstanceState);
 
         addPreferencesFromResource(R.xml.preferences);

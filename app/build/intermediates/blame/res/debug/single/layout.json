@@ -218,5 +218,9 @@
     {
         "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/layout/design_navigation_item_subheader.xml",
         "source": "/Users/ssd/.android/build-cache/539e33af76bd929f536687397c684d4746f9fb9b/output/res/layout/design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/layout/block_help.xml",
+        "source": "/Users/ssd/Downloads/old-files/android-network-discovery/app/src/main/res/layout/block_help.xml"
     }
 ]

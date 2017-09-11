@@ -93,10 +93,10 @@ ADDED from /Users/ssd/Downloads/old-files/android-network-discovery/app/src/main
 		ADDED from /Users/ssd/Downloads/old-files/android-network-discovery/app/src/main/AndroidManifest.xml:55:13-45
 	android:name
 		ADDED from /Users/ssd/Downloads/old-files/android-network-discovery/app/src/main/AndroidManifest.xml:54:13-40
-activity#me.rahulanand.network.NetworkHelp
-ADDED from /Users/ssd/Downloads/old-files/android-network-discovery/app/src/main/AndroidManifest.xml:58:9-49
+activity#me.rahulanand.network.BlockHelp
+ADDED from /Users/ssd/Downloads/old-files/android-network-discovery/app/src/main/AndroidManifest.xml:58:9-47
 	android:name
-		ADDED from /Users/ssd/Downloads/old-files/android-network-discovery/app/src/main/AndroidManifest.xml:58:19-46
+		ADDED from /Users/ssd/Downloads/old-files/android-network-discovery/app/src/main/AndroidManifest.xml:58:19-44
 activity#me.rahulanand.network.ipTools
 ADDED from /Users/ssd/Downloads/old-files/android-network-discovery/app/src/main/AndroidManifest.xml:59:9-45
 	android:name

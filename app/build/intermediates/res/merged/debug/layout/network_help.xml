@@ -8,6 +8,23 @@
         android:id="@+id/textView3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="This is where you will see how to use router block page."
-        android:layout_weight="0.33" />
+        android:layout_weight="0.33"
+        android:text="There are typically two cases to exclude or block the device from wireless network on router admin interface. \n\nCase 1: \nClick the Deny/Disable icon to remove a device.
+        \nStep 1 - Enter the login details.
+
+Step 2 - Find the wireless client list. Change the device to Deny mode.
+
+Case 2:
+Configure the MAC address filter to remove a device
+
+Step 1 - Enter the login details
+
+Step 2 - Locate the device you want to forbid. Copy its MAC address
+
+Step 3 - Find the MAC address filter. Enter the device’s MAC address on the black list and Apply the changes.
+
+
+
+
+" />
 </LinearLayout>

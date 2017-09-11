@@ -46,4 +46,5 @@
         <item name="android:textColor">?android:attr/textColorSecondary</item>
         <item name="android:textSize">12sp</item>
     </style>
+
 </resources>
