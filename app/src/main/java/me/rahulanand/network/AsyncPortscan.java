@@ -1,18 +1,3 @@
-/*
- * Copyright (C) 2009-2010 Aubort Jean-Baptiste (Rorist)
- * Licensed under GNU's GPL 2, see README
- */
-
-/**
- * Java NIO Documentation:
- * http://jfarcand.wordpress.com/2006/05/30/tricks-and-tips-with-nio-part-i-why-you-must-handle-op_write
- * http://jfarcand.wordpress.com/2006/07/06/tricks-and-tips-with-nio-part-ii-why-selectionkey-attach-is-evil/ 
- * http://jfarcand.wordpress.com/2006/07/07/tricks-and-tips-with-nio-part-iii-to-thread-or-not-to-thread/
- * http://jfarcand.wordpress.com/2006/07/19/httpweblogs-java-netblog20060719tricks-and-tips-nio-part-iv-meet-selectors/
- * http://jfarcand.wordpress.com/2006/09/21/tricks-and-tips-with-nio-part-v-ssl-and-nio-friend-or-foe
- * http://svn.apache.org/viewvc/mina/trunk/core/src/main/java/org/apache/mina/transport/socket/nio/
- */
-
 package me.rahulanand.network;
 
 import me.rahulanand.network.Utils.Prefs;

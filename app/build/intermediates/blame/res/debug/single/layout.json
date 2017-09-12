@@ -16,16 +16,16 @@
         "source": "/Users/ssd/Downloads/old-files/android-network-discovery/app/src/main/res/layout/main.xml"
     },
     {
-        "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
-        "source": "/Users/ssd/.android/build-cache/33e4b57cbda87d7b1439114bc4e0fe0cb98f5a1d/output/res/layout/abc_action_mode_bar.xml"
+        "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/layout/network_help.xml",
+        "source": "/Users/ssd/Downloads/old-files/android-network-discovery/app/src/main/res/layout/network_help.xml"
     },
     {
         "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
         "source": "/Users/ssd/.android/build-cache/33e4b57cbda87d7b1439114bc4e0fe0cb98f5a1d/output/res/layout/abc_screen_content_include.xml"
     },
     {
-        "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/layout/network_help.xml",
-        "source": "/Users/ssd/Downloads/old-files/android-network-discovery/app/src/main/res/layout/network_help.xml"
+        "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/Users/ssd/.android/build-cache/33e4b57cbda87d7b1439114bc4e0fe0cb98f5a1d/output/res/layout/abc_action_mode_bar.xml"
     },
     {
         "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/layout/scan_single.xml",

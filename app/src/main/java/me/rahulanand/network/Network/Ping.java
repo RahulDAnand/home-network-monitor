@@ -1,8 +1,3 @@
-/*
- * Copyright (C) 2011 Aubort Jean-Baptiste (Rorist)
- * Licensed under GNU's GPL 2, see README
- */
-
 package me.rahulanand.network.Network;
 
 import java.net.InetAddress;

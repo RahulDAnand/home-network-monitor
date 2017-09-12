@@ -98,7 +98,9 @@ ADDED from /Users/ssd/Downloads/old-files/android-network-discovery/app/src/main
 	android:name
 		ADDED from /Users/ssd/Downloads/old-files/android-network-discovery/app/src/main/AndroidManifest.xml:58:19-44
 activity#me.rahulanand.network.ipTools
-ADDED from /Users/ssd/Downloads/old-files/android-network-discovery/app/src/main/AndroidManifest.xml:59:9-45
+ADDED from /Users/ssd/Downloads/old-files/android-network-discovery/app/src/main/AndroidManifest.xml:59:9-87
+	android:windowSoftInputMode
+		ADDED from /Users/ssd/Downloads/old-files/android-network-discovery/app/src/main/AndroidManifest.xml:59:43-84
 	android:name
 		ADDED from /Users/ssd/Downloads/old-files/android-network-discovery/app/src/main/AndroidManifest.xml:59:19-42
 supports-screens

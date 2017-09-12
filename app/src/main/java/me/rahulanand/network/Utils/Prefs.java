@@ -1,8 +1,3 @@
-/*
- * Copyright (C) 2009-2010 Aubort Jean-Baptiste (Rorist)
- * Licensed under GNU's GPL 2, see README
- */
-
 package me.rahulanand.network.Utils;
 
 import me.rahulanand.network.ActivityMain;
@@ -116,8 +111,8 @@ public class Prefs extends PreferenceActivity implements OnSharedPreferenceChang
     public static final String KEY_VERSION = "version";
     public static final String KEY_WIFI = "wifi";
 
-    private static final String URL_WEB = "https://github.com/RahulDAnand/home-network-monitor";
-    private static final String URL_EMAIL = "rahuldanand@hotmail.com";
+    private static final String URL_WEB = "http://rahulanand.me/";
+    private static final String URL_EMAIL = "rahul@rahulanand.me";
 
     private Context ctxt;
     private PreferenceScreen ps = null;

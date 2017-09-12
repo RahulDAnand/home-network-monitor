@@ -1,8 +1,3 @@
-/*
- * Copyright (C) 2009-2010 Aubort Jean-Baptiste (Rorist)
- * Licensed under GNU's GPL 2, see README
- */
-
 package me.rahulanand.network;
 
 import me.rahulanand.network.Network.HostBean;
@@ -23,6 +18,10 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.DialogInterface.OnClickListener;
 import android.content.SharedPreferences.Editor;
+import android.net.DhcpInfo;
+import android.net.Uri;
+import android.net.wifi.WifiInfo;
+import android.net.wifi.WifiManager;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -60,6 +59,7 @@ final public class ActivityDiscovery extends ActivityNet implements OnItemClickL
     private HostsAdapter adapter;
     private Button btn_discover;
     private AbstractDiscovery mDiscoveryTask = null;
+
 
     // private SlidingDrawer mDrawer;
 
@@ -238,21 +238,23 @@ final public class ActivityDiscovery extends ActivityNet implements OnItemClickL
         final HostBean host = hosts.get(position);
         AlertDialog.Builder dialog = new AlertDialog.Builder(ActivityDiscovery.this);
         dialog.setTitle(R.string.discover_action_title);
-        dialog.setItems(new CharSequence[]{getString(R.string.discover_action_scan),
-                getString(R.string.discover_action_block), getString(R.string.discover_action_rename), getString(R.string.discover_action_tools)}, new OnClickListener() {
+        dialog.setItems(new CharSequence[]{getString(R.string.discover_action_block),
+                getString(R.string.discover_action_scan), getString(R.string.discover_action_rename), getString(R.string.discover_action_tools)}, new OnClickListener() {
             public void onClick(DialogInterface dialog, int which) {
                 switch (which) {
-                    case 0:
+                    case 1:
                         // Scan for Services
                         Intent intent = new Intent(ctxt, ActivityPortscan.class);
                         intent.putExtra(EXTRA_WIFI, NetInfo.isConnected(ctxt));
                         intent.putExtra(HostBean.EXTRA, host);
                         startActivityForResult(intent, SCAN_PORT_RESULT);
                         break;
-                    case 1:
+                    case 0:
+                        // Block Device
                         AlertDialog alertDialog = new AlertDialog.Builder(ActivityDiscovery.this).create();
                         alertDialog.setTitle("Network Discovery");
-                        alertDialog.setMessage("Due to Network Limitation you can only block device using Router page.\nYou will now redirect to router page");
+                        alertDialog.setMessage("Due to network limitation you can only block device using router page." +
+                                "\n\nYou will now redirect to router page");
                         alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "OK",
                                 new DialogInterface.OnClickListener() {
                                     public void onClick(DialogInterface dialog, int which) {
@@ -296,7 +298,9 @@ final public class ActivityDiscovery extends ActivityNet implements OnItemClickL
                         rename.show();
                         break;
 
-                    case 3: Intent i = new Intent(ActivityDiscovery.this, ipTools.class);
+                    case 3:
+                        //Ping or WoL
+                        Intent i = new Intent(ActivityDiscovery.this, ipTools.class);
                         startActivity(i);
                         break;
                 }

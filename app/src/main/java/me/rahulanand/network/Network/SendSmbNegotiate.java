@@ -1,16 +1,3 @@
-/*
- * Copyright (C) 2009-2010 Aubort Jean-Baptiste (Rorist)
- * Licensed under GNU's GPL 2, see README
- */
-
-/*
- ACKNOWLEDGE:
- This program was first to test MS 975497 SMB negotiate vuln, ported to java, to test against my own network.
- So there are still some traces of it in the code, and it could become a feature in the future..
-
- http://g-laurent.blogspot.com/2009/09/windows-vista7-smb20-negotiate-protocol.html
- */
-
 package me.rahulanand.network.Network;
 
 import java.io.IOException;

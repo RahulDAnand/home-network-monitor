@@ -1,10 +1,3 @@
-/*
- * Copyright (C) 2009-2010 Aubort Jean-Baptiste (Rorist)
- * Licensed under GNU's GPL 2, see README
- */
-
-// Taken from: http://github.com/ctrlaltdel/TahoeLAFS-android
-
 package me.rahulanand.network.Network;
 
 import me.rahulanand.network.ActivityMain;

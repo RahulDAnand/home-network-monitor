@@ -1,6 +1,7 @@
 package me.rahulanand.network;
 
 import java.io.BufferedReader;
+import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
@@ -15,13 +16,20 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.Toast;
+import android.widget.TextView;
+import android.content.Context;
+
+import android.net.wifi.WifiInfo;
+import android.net.wifi.WifiManager;
+
+
 
 public class ipTools extends Activity {
 
     Button btnIp;
     ListView listaPing;
     EditText edtIP;
-
+    View setIpView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,17 +37,14 @@ public class ipTools extends Activity {
         this.requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.network_ping);
 
-
-        //instanciar os componentes
-        btnIp = (Button) findViewById(R.id.btn_ping);
-        listaPing = (ListView) findViewById(R.id.listView_ping);
+        btnIp = (Button) findViewById(R.id.Btn_Ping);
         edtIP = (EditText) findViewById(R.id.edit_ip);
 
     }
-    public void fExecutarPing(View view){
+
+    public void setIpView(View view){
         Editable host = edtIP.getText();
         List<String> listaResponstaPing = new ArrayList<String>();
-        //Cria o adapter para a Listview
         ArrayAdapter<String> adapterLista = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,
                 listaResponstaPing);
 
@@ -52,7 +57,6 @@ public class ipTools extends Activity {
 
             while((inputLinhe = in.readLine())!= null){
                 listaResponstaPing.add(inputLinhe);
-                //adiciona para cada linha
                 listaPing.setAdapter(adapterLista);
             }
 
@@ -62,6 +66,7 @@ public class ipTools extends Activity {
             Toast.makeText(this, "Erro: "+e.getMessage().toString(), Toast.LENGTH_SHORT).show();
 
         }
+
 
 
     }

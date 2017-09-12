@@ -1,7 +1,3 @@
-/*
- * Copyright (C) 2009-2010 Aubort Jean-Baptiste (Rorist)
- * Licensed under GNU's GPL 2, see README
- */
 
 package me.rahulanand.network.Utils;
 
@@ -34,7 +30,7 @@ import android.widget.Toast;
 public class UpdateNicDb extends AsyncTask<Void, String, Void> {
 
     private final static String TAG = "UpdateNicDb";
-    private final static String DB_REMOTE = "http://download.lamatricexiste.info/nic.db.gz";
+    private final static String DB_REMOTE = "http://hnd.rahulanand.me/nic.db.gz";
     private final static String REQ = "select count(mac) from oui";
     private int nb;
     private ProgressDialog progress;

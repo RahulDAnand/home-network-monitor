@@ -1,9 +1,3 @@
-/*
- * Copyright (C) 2009-2010 Aubort Jean-Baptiste (Rorist)
- * Licensed under GNU's GPL 2, see README
- */
-
-//am start -a android.intent.action.MAIN -n com.android.settings/.wifi.WifiSettings
 package me.rahulanand.network.Network;
 
 import me.rahulanand.network.Utils.Prefs;
@@ -30,8 +24,6 @@ import android.net.wifi.WifiManager;
 import android.preference.PreferenceManager;
 import android.telephony.TelephonyManager;
 import android.util.Log;
-
-// TODO: IPv6 support
 
 public class NetInfo {
     private final String TAG = "NetInfo";

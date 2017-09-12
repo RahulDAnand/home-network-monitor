@@ -1,8 +1,3 @@
-/*
- * Copyright (C) 2009-2010 Aubort Jean-Baptiste (Rorist)
- * Licensed under GNU's GPL 2, see README
- */
-
 package me.rahulanand.network.Utils;
 
 import me.rahulanand.network.Network.HostBean;

@@ -17,8 +17,8 @@
     <string name="btn_ports">Ports</string>
     <string name="btn_remove">Remove</string>
     
-    <string name="task_db">Downloading and installing %s database ...</string>
-    <string name="task_services">Creating Services database ...\nThis may take a while ...</string>
+    <string name="task_db">Loading...</string>
+    <string name="task_services">Loading...</string>
  
     <string name="package_missing">%s must be installed from the market !</string>
     
@@ -94,14 +94,16 @@
     <string name="preferences_help">Help</string>
     <string name="preferences_export">Export</string>
     <string name="preferences_credits">Developer Details</string>
-    <string name="preferences_discover">Discovery</string>
-    <string name="preferences_portscan">Port Scan</string>
+    <string name="preferences_discover"></string>
+    <string name="preferences_portscan"></string>
     <string name="preferences_advanced">General</string>
     
     <string name="preferences_resolve_name_title">Resolve Hostname</string>
     <string name="preferences_resolve_name_summary">Use system DNS to resolve ip addresses</string>
     <string name="preferences_vibrate_title">Vibrate</string>
-    <string name="preferences_vibrate_summary">Vibrate when Scan is completed</string>
+    <string name="preferences_vibrate_summary">Vibrate when scan is completed</string>
+    <string name="preferences_notification_title">Notification on new device</string>
+    <string name="preferences_notification_summary">Get Notification if new device is found</string>
     <string name="preferences_ratecontrol_enable_title">Rate control</string>
     <string name="preferences_ratecontrol_enable_summary">Enable automatic rate detection</string>
     <string name="preferences_timeout_discover_title">Custom rate</string>
@@ -122,14 +124,14 @@
     <string name="preferences_ssh_user_summary">Username for the SSH connection</string>
     <string name="preferences_threads_title">Threads pool</string>
     <string name="preferences_threads_summary">Maximum number of threads to use in host discovery (1-256)</string>
-    <string name="preferences_resetdb_title">Update NIC Database</string>
-    <string name="preferences_resetdb_summary">Pull and update MAC addresses database</string>
-    <string name="preferences_resetdb_action">Do you want to download %1$s ? (~%2$sk)</string>
-    <string name="preferences_resetdb_ok">Database updated ! %s new entries ...</string>
+    <string name="preferences_resetdb_title">Reset Application</string>
+    <string name="preferences_resetdb_summary">Reset all informations on application</string>
+    <string name="preferences_resetdb_action">Are you sure?</string>
+    <string name="preferences_resetdb_ok">Application updated.</string>
     <string name="preferences_version_title">Version</string>
     <string name="preferences_website_title">Website</string>
     <string name="preferences_email_title">Contact</string>
-    <string name="preferences_intf_title">Network interface</string>
+    <string name="preferences_intf_title">Network Interface</string>
     <string name="preferences_intf_summary">Choose which interface to use</string>
     <string name="preferences_discover_method_title">Discover Method</string>
     <string name="preferences_discover_method_summary">Change to different method of host discovery</string>
@@ -154,8 +156,6 @@
     <string name="ping">Ping</string>
     <string name="wol">Wake-On-Lan</string>
     <string name="port_scan">Port Scan</string>
-    <string name="github_page">Github</string>
-    <string name="github_url">https://github.com/stealthcopter/AndroidNetworkTools</string>
 
 
     <string-array name="method_discover_name">

@@ -23,12 +23,21 @@
             android:title="@string/preferences_vibrate_title"
             android:summary="@string/preferences_vibrate_summary"
             android:defaultValue="false" />
+      <CheckBoxPreference
+          android:key="notification"
+          android:title="@string/preferences_notification_title"
+          android:summary="@string/preferences_notification_summary"
+          android:defaultValue="false"/>
         <Preference
             android:key="resetdb"
             android:title="@string/preferences_resetdb_title"
             android:summary="@string/preferences_resetdb_summary"
             android:defaultValue="1"/>
     </PreferenceScreen>
+
+    <Preference
+        android:key="wifi"
+        android:title="Wi-Fi Settings"/>
 
     <PreferenceScreen
         android:enabled="false"
@@ -134,9 +143,7 @@
             android:title="@string/preferences_timeout_title" />
     </PreferenceScreen>
 
-    <Preference
-        android:key="wifi"
-        android:title="Wi-Fi"/>
+
     
 </PreferenceCategory>
 

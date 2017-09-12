@@ -104,10 +104,6 @@
         "source": "/Users/ssd/Downloads/old-files/android-network-discovery/app/src/main/res/drawable/closed.png"
     },
     {
-        "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/drawable/icon.png",
-        "source": "/Users/ssd/Downloads/old-files/android-network-discovery/app/src/main/res/drawable/icon.png"
-    },
-    {
         "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
         "source": "/Users/ssd/.android/build-cache/33e4b57cbda87d7b1439114bc4e0fe0cb98f5a1d/output/res/drawable/abc_list_selector_holo_light.xml"
     },
