@@ -7,6 +7,8 @@ import android.view.Window;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
+import me.rahulanand.network.BlockDevice;
+
 public class BlockHelp extends Activity {
 
     @Override

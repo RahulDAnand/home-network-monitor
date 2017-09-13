@@ -2,5 +2,9 @@
     {
         "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/xml/preferences.xml",
         "source": "/Users/ssd/Downloads/old-files/android-network-discovery/app/src/main/res/xml/preferences.xml"
+    },
+    {
+        "merged": "/Users/ssd/Downloads/old-files/network-discovery-project/app/build/intermediates/res/merged/debug/xml/preferences.xml",
+        "source": "/Users/ssd/Downloads/old-files/network-discovery-project/app/src/main/res/xml/preferences.xml"
     }
 ]

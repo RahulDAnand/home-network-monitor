@@ -174,7 +174,7 @@
         <item name="android:layout_height">38dip</item>
     </style>
     <style name="ButtonTop" parent="@style/Button">
-
+<!--<item name="android:background">@drawable/btn_top</item>-->
         <item name="android:layout_width">0dip</item>
         <item name="android:layout_height">48dip</item>
         <item name="android:layout_weight">1</item>

@@ -2,5 +2,9 @@
     {
         "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/layout-land/portscan.xml",
         "source": "/Users/ssd/Downloads/old-files/android-network-discovery/app/src/main/res/layout-land/portscan.xml"
+    },
+    {
+        "merged": "/Users/ssd/Downloads/old-files/network-discovery-project/app/build/intermediates/res/merged/debug/layout-land/portscan.xml",
+        "source": "/Users/ssd/Downloads/old-files/network-discovery-project/app/src/main/res/layout-land/portscan.xml"
     }
 ]

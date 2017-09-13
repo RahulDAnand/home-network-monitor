@@ -39,6 +39,11 @@ public class BlockDevice extends Activity {
     Button button2;
     View v;
     TextView iptext;
+    WifiManager wifiManager;
+    private String gurl = null;
+    String PageURL ;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -46,12 +51,13 @@ public class BlockDevice extends Activity {
         setContentView(R.layout.block_device);
         button2 = (Button) findViewById(R.id.clickButton);
         iptext = (TextView) findViewById(R.id.textView);
-        iptext.setText("For guide on how to block the device on router.\nClick on side button.");
-
+        iptext.setText("For guide on how to block the device on router.\nYour router IP: " + getRouterIPAddress());
+        String gurl = getRouterIPAddress();
 
         WebView myWebView = (WebView) findViewById(R.id.webView1);
         myWebView.setWebViewClient(new WebViewClient());
-        myWebView.loadUrl("http://192.168.1.1");
+        myWebView.getSettings().setJavaScriptEnabled(true);
+        myWebView.loadUrl("http://"+gurl);
 
 
         // Capture button clicks
@@ -65,4 +71,22 @@ public class BlockDevice extends Activity {
             }
         });
     }
+    private String getRouterIPAddress() {
+
+        WifiManager wifiManager = (WifiManager) getSystemService(Context.WIFI_SERVICE);
+        DhcpInfo dhcp = wifiManager.getDhcpInfo();
+        int gip = dhcp.gateway;
+        return formatIP(gip);
+    }
+
+    private String formatIP(int ip) {
+        return String.format(
+                "%d.%d.%d.%d",
+                (ip & 0xff),
+                (ip >> 8 & 0xff),
+                (ip >> 16 & 0xff),
+                (ip >> 24 & 0xff)
+        );
+    }
+
 }

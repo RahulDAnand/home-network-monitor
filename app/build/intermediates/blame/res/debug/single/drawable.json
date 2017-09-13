@@ -4,28 +4,16 @@
         "source": "/Users/ssd/.android/build-cache/539e33af76bd929f536687397c684d4746f9fb9b/output/res/drawable/snackbar_background.xml"
     },
     {
-        "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/drawable/discover.png",
-        "source": "/Users/ssd/Downloads/old-files/android-network-discovery/app/src/main/res/drawable/discover.png"
-    },
-    {
-        "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/drawable/eyes.gif",
-        "source": "/Users/ssd/Downloads/old-files/android-network-discovery/app/src/main/res/drawable/eyes.gif"
+        "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/drawable/router.png",
+        "source": "/Users/ssd/Downloads/old-files/android-network-discovery/app/src/main/res/drawable/router.png"
     },
     {
         "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
         "source": "/Users/ssd/.android/build-cache/33e4b57cbda87d7b1439114bc4e0fe0cb98f5a1d/output/res/drawable/abc_edit_text_material.xml"
     },
     {
-        "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/drawable/router.png",
-        "source": "/Users/ssd/Downloads/old-files/android-network-discovery/app/src/main/res/drawable/router.png"
-    },
-    {
-        "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
-        "source": "/Users/ssd/.android/build-cache/33e4b57cbda87d7b1439114bc4e0fe0cb98f5a1d/output/res/drawable/abc_item_background_holo_light.xml"
-    },
-    {
-        "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
-        "source": "/Users/ssd/.android/build-cache/33e4b57cbda87d7b1439114bc4e0fe0cb98f5a1d/output/res/drawable/abc_spinner_textfield_background_material.xml"
+        "merged": "/Users/ssd/Downloads/old-files/network-discovery-project/app/build/intermediates/res/merged/debug/drawable/drawer_bg.xml",
+        "source": "/Users/ssd/Downloads/old-files/network-discovery-project/app/src/main/res/drawable/drawer_bg.xml"
     },
     {
         "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
@@ -36,40 +24,28 @@
         "source": "/Users/ssd/Downloads/old-files/android-network-discovery/app/src/main/res/drawable/arrow_right.png"
     },
     {
+        "merged": "/Users/ssd/Downloads/old-files/network-discovery-project/app/build/intermediates/res/merged/debug/drawable/wifi.png",
+        "source": "/Users/ssd/Downloads/old-files/network-discovery-project/app/src/main/res/drawable/wifi.png"
+    },
+    {
         "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
         "source": "/Users/ssd/.android/build-cache/33e4b57cbda87d7b1439114bc4e0fe0cb98f5a1d/output/res/drawable/abc_list_selector_background_transition_holo_light.xml"
     },
     {
-        "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/drawable/install.png",
-        "source": "/Users/ssd/Downloads/old-files/android-network-discovery/app/src/main/res/drawable/install.png"
+        "merged": "/Users/ssd/Downloads/old-files/network-discovery-project/app/build/intermediates/res/merged/debug/drawable/install.png",
+        "source": "/Users/ssd/Downloads/old-files/network-discovery-project/app/src/main/res/drawable/install.png"
     },
     {
-        "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_dark.xml",
-        "source": "/Users/ssd/.android/build-cache/33e4b57cbda87d7b1439114bc4e0fe0cb98f5a1d/output/res/drawable/abc_dialog_material_background_dark.xml"
-    },
-    {
-        "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
-        "source": "/Users/ssd/.android/build-cache/33e4b57cbda87d7b1439114bc4e0fe0cb98f5a1d/output/res/drawable/abc_btn_check_material.xml"
-    },
-    {
-        "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
-        "source": "/Users/ssd/.android/build-cache/33e4b57cbda87d7b1439114bc4e0fe0cb98f5a1d/output/res/drawable/abc_btn_radio_material.xml"
-    },
-    {
-        "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/drawable/circles.gif",
-        "source": "/Users/ssd/Downloads/old-files/android-network-discovery/app/src/main/res/drawable/circles.gif"
+        "merged": "/Users/ssd/Downloads/old-files/network-discovery-project/app/build/intermediates/res/merged/debug/drawable/export.png",
+        "source": "/Users/ssd/Downloads/old-files/network-discovery-project/app/src/main/res/drawable/export.png"
     },
     {
         "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/drawable/computer.png",
         "source": "/Users/ssd/Downloads/old-files/android-network-discovery/app/src/main/res/drawable/computer.png"
     },
     {
-        "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
-        "source": "/Users/ssd/.android/build-cache/33e4b57cbda87d7b1439114bc4e0fe0cb98f5a1d/output/res/drawable/abc_switch_thumb_material.xml"
-    },
-    {
-        "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
-        "source": "/Users/ssd/.android/build-cache/33e4b57cbda87d7b1439114bc4e0fe0cb98f5a1d/output/res/drawable/abc_tab_indicator_material.xml"
+        "merged": "/Users/ssd/Downloads/old-files/network-discovery-project/app/build/intermediates/res/merged/debug/drawable/router.png",
+        "source": "/Users/ssd/Downloads/old-files/network-discovery-project/app/src/main/res/drawable/router.png"
     },
     {
         "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
@@ -80,32 +56,48 @@
         "source": "/Users/ssd/Downloads/old-files/android-network-discovery/app/src/main/res/drawable/buttonshape.xml"
     },
     {
-        "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/drawable/open.png",
-        "source": "/Users/ssd/Downloads/old-files/android-network-discovery/app/src/main/res/drawable/open.png"
+        "merged": "/Users/ssd/Downloads/old-files/network-discovery-project/app/build/intermediates/res/merged/debug/drawable/computer.png",
+        "source": "/Users/ssd/Downloads/old-files/network-discovery-project/app/src/main/res/drawable/computer.png"
     },
     {
-        "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/drawable/connect.png",
-        "source": "/Users/ssd/Downloads/old-files/android-network-discovery/app/src/main/res/drawable/connect.png"
+        "merged": "/Users/ssd/Downloads/old-files/network-discovery-project/app/build/intermediates/res/merged/debug/drawable/btn_bg.xml",
+        "source": "/Users/ssd/Downloads/old-files/network-discovery-project/app/src/main/res/drawable/btn_bg.xml"
     },
     {
-        "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/drawable/cancel.png",
-        "source": "/Users/ssd/Downloads/old-files/android-network-discovery/app/src/main/res/drawable/cancel.png"
+        "merged": "/Users/ssd/Downloads/old-files/network-discovery-project/app/build/intermediates/res/merged/debug/drawable/cancel.png",
+        "source": "/Users/ssd/Downloads/old-files/network-discovery-project/app/src/main/res/drawable/cancel.png"
     },
     {
-        "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
-        "source": "/Users/ssd/.android/build-cache/33e4b57cbda87d7b1439114bc4e0fe0cb98f5a1d/output/res/drawable/abc_item_background_holo_dark.xml"
+        "merged": "/Users/ssd/Downloads/old-files/network-discovery-project/app/build/intermediates/res/merged/debug/drawable/circles.gif",
+        "source": "/Users/ssd/Downloads/old-files/network-discovery-project/app/src/main/res/drawable/circles.gif"
+    },
+    {
+        "merged": "/Users/ssd/Downloads/old-files/network-discovery-project/app/build/intermediates/res/merged/debug/drawable/disabled.png",
+        "source": "/Users/ssd/Downloads/old-files/network-discovery-project/app/src/main/res/drawable/disabled.png"
+    },
+    {
+        "merged": "/Users/ssd/Downloads/old-files/network-discovery-project/app/build/intermediates/res/merged/debug/drawable/back.png",
+        "source": "/Users/ssd/Downloads/old-files/network-discovery-project/app/src/main/res/drawable/back.png"
+    },
+    {
+        "merged": "/Users/ssd/Downloads/old-files/network-discovery-project/app/build/intermediates/res/merged/debug/drawable/eyes.gif",
+        "source": "/Users/ssd/Downloads/old-files/network-discovery-project/app/src/main/res/drawable/eyes.gif"
     },
     {
         "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
         "source": "/Users/ssd/.android/build-cache/33e4b57cbda87d7b1439114bc4e0fe0cb98f5a1d/output/res/drawable/abc_btn_borderless_material.xml"
     },
     {
-        "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/drawable/closed.png",
-        "source": "/Users/ssd/Downloads/old-files/android-network-discovery/app/src/main/res/drawable/closed.png"
+        "merged": "/Users/ssd/Downloads/old-files/network-discovery-project/app/build/intermediates/res/merged/debug/drawable/discover.png",
+        "source": "/Users/ssd/Downloads/old-files/network-discovery-project/app/src/main/res/drawable/discover.png"
     },
     {
         "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
         "source": "/Users/ssd/.android/build-cache/33e4b57cbda87d7b1439114bc4e0fe0cb98f5a1d/output/res/drawable/abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "/Users/ssd/Downloads/old-files/network-discovery-project/app/build/intermediates/res/merged/debug/drawable/settings.png",
+        "source": "/Users/ssd/Downloads/old-files/network-discovery-project/app/src/main/res/drawable/settings.png"
     },
     {
         "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/drawable/wifi.png",
@@ -136,20 +128,12 @@
         "source": "/Users/ssd/.android/build-cache/33e4b57cbda87d7b1439114bc4e0fe0cb98f5a1d/output/res/drawable/abc_textfield_search_material.xml"
     },
     {
-        "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/drawable/drawer_bg.xml",
-        "source": "/Users/ssd/Downloads/old-files/android-network-discovery/app/src/main/res/drawable/drawer_bg.xml"
-    },
-    {
         "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
         "source": "/Users/ssd/.android/build-cache/33e4b57cbda87d7b1439114bc4e0fe0cb98f5a1d/output/res/drawable/abc_cab_background_top_material.xml"
     },
     {
         "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/drawable/btn_bg.xml",
         "source": "/Users/ssd/Downloads/old-files/android-network-discovery/app/src/main/res/drawable/btn_bg.xml"
-    },
-    {
-        "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/drawable/disabled.png",
-        "source": "/Users/ssd/Downloads/old-files/android-network-discovery/app/src/main/res/drawable/disabled.png"
     },
     {
         "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
@@ -162,6 +146,102 @@
     {
         "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/drawable/export.png",
         "source": "/Users/ssd/Downloads/old-files/android-network-discovery/app/src/main/res/drawable/export.png"
+    },
+    {
+        "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/drawable/discover.png",
+        "source": "/Users/ssd/Downloads/old-files/android-network-discovery/app/src/main/res/drawable/discover.png"
+    },
+    {
+        "merged": "/Users/ssd/Downloads/old-files/network-discovery-project/app/build/intermediates/res/merged/debug/drawable/open.png",
+        "source": "/Users/ssd/Downloads/old-files/network-discovery-project/app/src/main/res/drawable/open.png"
+    },
+    {
+        "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/drawable/eyes.gif",
+        "source": "/Users/ssd/Downloads/old-files/android-network-discovery/app/src/main/res/drawable/eyes.gif"
+    },
+    {
+        "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
+        "source": "/Users/ssd/.android/build-cache/33e4b57cbda87d7b1439114bc4e0fe0cb98f5a1d/output/res/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/Users/ssd/Downloads/old-files/network-discovery-project/app/build/intermediates/res/merged/debug/drawable/connect.png",
+        "source": "/Users/ssd/Downloads/old-files/network-discovery-project/app/src/main/res/drawable/connect.png"
+    },
+    {
+        "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/Users/ssd/.android/build-cache/33e4b57cbda87d7b1439114bc4e0fe0cb98f5a1d/output/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/drawable/install.png",
+        "source": "/Users/ssd/Downloads/old-files/android-network-discovery/app/src/main/res/drawable/install.png"
+    },
+    {
+        "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_dark.xml",
+        "source": "/Users/ssd/.android/build-cache/33e4b57cbda87d7b1439114bc4e0fe0cb98f5a1d/output/res/drawable/abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
+        "source": "/Users/ssd/.android/build-cache/33e4b57cbda87d7b1439114bc4e0fe0cb98f5a1d/output/res/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/Users/ssd/Downloads/old-files/network-discovery-project/app/build/intermediates/res/merged/debug/drawable/buttonshape.xml",
+        "source": "/Users/ssd/Downloads/old-files/network-discovery-project/app/src/main/res/drawable/buttonshape.xml"
+    },
+    {
+        "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
+        "source": "/Users/ssd/.android/build-cache/33e4b57cbda87d7b1439114bc4e0fe0cb98f5a1d/output/res/drawable/abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/drawable/circles.gif",
+        "source": "/Users/ssd/Downloads/old-files/android-network-discovery/app/src/main/res/drawable/circles.gif"
+    },
+    {
+        "merged": "/Users/ssd/Downloads/old-files/network-discovery-project/app/build/intermediates/res/merged/debug/drawable/computer_down.png",
+        "source": "/Users/ssd/Downloads/old-files/network-discovery-project/app/src/main/res/drawable/computer_down.png"
+    },
+    {
+        "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
+        "source": "/Users/ssd/.android/build-cache/33e4b57cbda87d7b1439114bc4e0fe0cb98f5a1d/output/res/drawable/abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
+        "source": "/Users/ssd/.android/build-cache/33e4b57cbda87d7b1439114bc4e0fe0cb98f5a1d/output/res/drawable/abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/drawable/open.png",
+        "source": "/Users/ssd/Downloads/old-files/android-network-discovery/app/src/main/res/drawable/open.png"
+    },
+    {
+        "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/drawable/connect.png",
+        "source": "/Users/ssd/Downloads/old-files/android-network-discovery/app/src/main/res/drawable/connect.png"
+    },
+    {
+        "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/drawable/cancel.png",
+        "source": "/Users/ssd/Downloads/old-files/android-network-discovery/app/src/main/res/drawable/cancel.png"
+    },
+    {
+        "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
+        "source": "/Users/ssd/.android/build-cache/33e4b57cbda87d7b1439114bc4e0fe0cb98f5a1d/output/res/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/drawable/closed.png",
+        "source": "/Users/ssd/Downloads/old-files/android-network-discovery/app/src/main/res/drawable/closed.png"
+    },
+    {
+        "merged": "/Users/ssd/Downloads/old-files/network-discovery-project/app/build/intermediates/res/merged/debug/drawable/closed.png",
+        "source": "/Users/ssd/Downloads/old-files/network-discovery-project/app/src/main/res/drawable/closed.png"
+    },
+    {
+        "merged": "/Users/ssd/Downloads/old-files/network-discovery-project/app/build/intermediates/res/merged/debug/drawable/arrow_right.png",
+        "source": "/Users/ssd/Downloads/old-files/network-discovery-project/app/src/main/res/drawable/arrow_right.png"
+    },
+    {
+        "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/drawable/drawer_bg.xml",
+        "source": "/Users/ssd/Downloads/old-files/android-network-discovery/app/src/main/res/drawable/drawer_bg.xml"
+    },
+    {
+        "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/drawable/disabled.png",
+        "source": "/Users/ssd/Downloads/old-files/android-network-discovery/app/src/main/res/drawable/disabled.png"
     },
     {
         "merged": "/Users/ssd/Downloads/old-files/android-network-discovery/app/build/intermediates/res/merged/debug/drawable/settings.png",
